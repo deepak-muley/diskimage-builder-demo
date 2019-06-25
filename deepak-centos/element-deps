@@ -1,0 +1,7 @@
+vm
+centos7
+install-static
+growroot
+block-device-efi
+devuser
+package-installs

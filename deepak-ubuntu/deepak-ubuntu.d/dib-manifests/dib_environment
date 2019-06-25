@@ -1,0 +1,2 @@
+declare -x DIB_ARGS="-t qcow2 -o deepak-ubuntu.qcow2 deepak-ubuntu"
+declare -x DIB_PYTHON_EXEC="/home/deepak/anaconda3/bin/python"
