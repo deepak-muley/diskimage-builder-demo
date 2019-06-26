@@ -1,4 +1,6 @@
-virtualenv venv3
+sudo apt install -y python3 python3-pip
+sudo apt install -y kpartx qemu-utils
+sudo pip3 install virtualenv
+virtualenv -p /usr/bin/python3 venv3
 . ./venv3/bin/activate
-pip install -r requirements.txt
-sudo apt install kpartx qemu-utils -y
+pip3 install -r requirements.txt
